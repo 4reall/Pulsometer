@@ -1,5 +1,5 @@
 import fs from "fs";
-import fonter from "gulp-fonter";
+import fonter from "gulp-fonter-unx";
 import ttf2woff2 from "gulp-ttf2woff2";
 
 export const otfToTtf = () => {
@@ -42,7 +42,7 @@ export const ttfToWoff = () => {
 
 export const fontsStyle = () => {
 	// файл стилей подключения шрифтов 
-	let fontsFile = `${app.path.srcFolder}/scss/fonts.scss`;
+	let fontsFile = `${app.path.srcFolder}/scss/base/fonts.scss`;
 	// проверка существования файлов шрифтов
 	fs.readdir(app.path.build.fonts, function (err, fontsFiles) {
 		if (fontsFiles) {

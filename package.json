@@ -6,8 +6,8 @@
   "type": "module",
   "homepage": "https://4reall.github.io/pulsometer",
   "scripts": {
-    "deploy gh": "gh-pages -d dist",
-	 "deploy": "gulp deployFTP --build",
+    "deploy-gh": "gh-pages -d dist",
+    "deploy": "gulp deployFTP --build",
     "dev": "gulp",
     "build": "gulp build --build",
     "zip": "gulp deployZIP --build",
@@ -51,6 +51,7 @@
   },
   "dependencies": {
     "gh-pages": "^3.2.3",
+    "gulp-fonter-unx": "^0.3.0",
     "newer": "latest"
   }
 }
