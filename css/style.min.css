@@ -47,7 +47,7 @@ a:focus, a:active {
 .first {
   min-height: 650px;
   padding: 21px 0px 93px 0px;
-  background: url("../../img/first/bg.jpg") center center/cover no-repeat;
+  background: url("../img/first/bg.jpg") center center/cover no-repeat;
 }
 .first__row {
   margin-top: 91px;
