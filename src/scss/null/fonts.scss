@@ -1,0 +1,21 @@
+@font-face {
+	font-family: CormorantGaramond;
+	font-display: swap;
+	src: url("../fonts/CormorantGaramond-Light.woff2") format("woff2"), url("../fonts/CormorantGaramond-Light/.woff") format("woff");
+	font-weight:300;
+\tfont-style: normal;
+}
+@font-face {
+	font-family: CormorantGaramond;
+	font-display: swap;
+	src: url("../fonts/CormorantGaramond-Medium.woff2") format("woff2"), url("../fonts/CormorantGaramond-Medium/.woff") format("woff");
+	font-weight:500;
+\tfont-style: normal;
+}
+@font-face {
+	font-family: CormorantGaramond;
+	font-display: swap;
+	src: url("../fonts/CormorantGaramond-Bold.woff2") format("woff2"), url("../fonts/CormorantGaramond-Bold/.woff") format("woff");
+	font-weight:700;
+\tfont-style: normal;
+}
