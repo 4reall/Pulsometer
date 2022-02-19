@@ -1,0 +1,7 @@
+body {
+  background-color: darkcyan;
+  background: url("../img/testsvg.png") 0 0 no-repeat;
+}
+body div {
+  color: red;
+}
