@@ -1,4 +1,21 @@
-@import "nullstyle.scss";
-// @import "null/fonts.scss";
+@import "base/fonts.scss";
 @import "base/_mixins.scss";
 @import "base/_variables.scss";
+
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+* {
+	font-family: 'Museo Sans Cyrls', sans-serif ;
+}
+
+.container {
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+@import "blocks/_first.scss";
+@import "blocks/_header.scss";
+@import "blocks/_buttons.scss";

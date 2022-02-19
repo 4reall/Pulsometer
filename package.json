@@ -1,7 +1,7 @@
 {
-  "name": "fls-gulp",
+  "name": "gulp",
   "version": "1.0.0",
-  "description": "тестовая сборка gulp ",
+  "description": "сборка gulp ",
   "main": "gulpfile.js",
   "type": "module",
   "homepage": "https://4reall.github.io/pulsometer",

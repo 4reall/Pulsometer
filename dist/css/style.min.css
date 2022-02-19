@@ -1,13 +1,30 @@
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
+@font-face {
+  font-family: Museo Sans Cyrl;
+  font-display: swap;
+  src: url("../fonts/MuseoSansCyrl-500.woff2") format("woff2"), url("../fonts/MuseoSansCyrl-500/.woff") format("woff");
+  font-weight: 500;
+  tfont-style: normal;
+}
+@font-face {
+  font-family: Museo Sans Cyrl;
+  font-display: swap;
+  src: url("../fonts/MuseoSansCyrl-700.woff2") format("woff2"), url("../fonts/MuseoSansCyrl-700/.woff") format("woff");
+  font-weight: 700;
+  tfont-style: normal;
+}
+@font-face {
+  font-family: Museo Sans Cyrl;
+  font-display: swap;
+  src: url("../fonts/MuseoSansCyrl-300.woff2") format("woff2"), url("../fonts/MuseoSansCyrl-300/.woff") format("woff");
+  font-weight: 300;
+  tfont-style: normal;
+}
+a, a:visited {
+  text-decoration: none;
 }
 
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+a:hover {
+  text-decoration: none;
 }
 
 :focus, :active {
@@ -18,55 +35,115 @@ a:focus, a:active {
   outline: none;
 }
 
-nav, footer, header, aside {
-  display: block;
+* {
+  font-family: "Museo Sans Cyrls", sans-serif;
 }
 
-html, body {
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  line-height: 1;
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.first {
+  min-height: 650px;
+  padding: 21px 0px 93px 0px;
+  background: url("../../img/first/bg.jpg") center center/cover no-repeat;
+}
+.first__row {
+  margin-top: 91px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.first__title {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.first__subtitle {
+  margin-top: 17px;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.first__icons {
+  margin-top: 66px;
+  width: 430px;
+  display: flex;
+  justify-content: space-between;
+}
+.first__icon {
+  width: 42px;
+  margin: 0px auto 20px auto;
+}
+.first__discr {
+  width: 106px;
+  text-align: center;
   font-size: 14px;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  font-weight: 500;
+  color: #ffffff;
+}
+.first__link {
+  margin-top: 18px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.first__link a {
+  text-decoration: underline;
+}
+.first__link a:visited {
+  color: #ffffff;
 }
 
-input, button, textarea {
-  font-family: inherit;
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  width: 250px;
+}
+.header__logo img {
+  width: 100%;
+}
+.header__official {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.header__official span {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+}
+.header__phone {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.header__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-input::-ms-clear {
-  display: none;
+.button {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #c70101;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
 }
-
-button {
-  cursor: pointer;
-}
-
-button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-
-a, a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-ul li {
-  list-style: none;
-}
-
-img {
-  vertical-align: top;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: inherit;
-  font-weight: 400;
+.button_main {
+  margin-top: 67px;
+  width: 300px;
+  height: 50px;
+  font-size: 16px;
 }
