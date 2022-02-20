@@ -53,7 +53,7 @@ a:focus, a:active {
   margin-top: 91px;
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-end;
 }
 .first__title {
   font-size: 42px;
@@ -140,12 +140,19 @@ a:focus, a:active {
   font-weight: 500;
   text-transform: uppercase;
   color: #ffffff;
+  border: none;
+}
+.button:active {
+  box-shadow: -1px -1px 1px black;
 }
 .button_main {
   margin-top: 67px;
   width: 300px;
   height: 50px;
   font-size: 16px;
+}
+.button_main:active {
+  box-shadow: -2px -2px 1px black;
 }
 
 .title {
