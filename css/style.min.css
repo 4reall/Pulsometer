@@ -147,3 +147,271 @@ a:focus, a:active {
   height: 50px;
   font-size: 16px;
 }
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #0d0d0d;
+}
+
+.benefits {
+  padding: 69px 0px 78px 0px;
+  background: #f6f6f6;
+}
+.benefits__row {
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+.benefits__item {
+  width: 250px;
+  text-align: center;
+}
+.benefits__img {
+  display: block;
+  margin: 0 auto;
+}
+.benefits__name {
+  margin-top: 38px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0d0d0d;
+}
+.benefits__discr {
+  margin-top: 26px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #0d0d0d;
+}
+.benefits__discr span {
+  text-decoration: underline;
+  color: #ff0000;
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 650px;
+  }
+
+  .button {
+    width: 130px;
+    height: 25px;
+    font-size: 10px;
+  }
+  .button_main {
+    margin-top: 50px;
+    width: 250px;
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+
+  .header__logo {
+    width: 200px;
+  }
+  .header__official {
+    font-size: 10px;
+  }
+  .header__official span {
+    font-size: 16px;
+  }
+  .header__phone {
+    font-size: 16px;
+  }
+
+  .first__row {
+    margin-top: 70px;
+    align-items: center;
+  }
+  .first__title {
+    font-size: 38px;
+  }
+  .first__subtitle {
+    margin-top: 12px;
+    font-size: 20px;
+  }
+  .first__icons {
+    margin-top: 50px;
+  }
+  .first__link {
+    font-size: 14px;
+  }
+
+  .benefits {
+    padding: 50px 0px 60px 0px;
+  }
+  .benefits__row {
+    margin-top: 40px;
+  }
+  .benefits__item {
+    width: 200px;
+  }
+  .benefits__name {
+    margin-top: 25px;
+    font-size: 17px;
+  }
+  .benefits__discr {
+    margin-top: 15px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 500px;
+  }
+
+  .button {
+    width: 120px;
+  }
+  .button_main {
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    font-size: 11px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .header__logo {
+    width: 150px;
+  }
+  .header__official span {
+    font-size: 14px;
+  }
+  .header__phone {
+    font-size: 14px;
+  }
+
+  .first {
+    min-height: 500px;
+    padding-bottom: 60;
+  }
+  .first__row {
+    margin-top: 40px;
+    align-items: center;
+  }
+  .first__title {
+    font-size: 30px;
+  }
+  .first__subtitle {
+    margin-top: 6px;
+    font-size: 16px;
+  }
+  .first__icons {
+    margin-top: 40px;
+    width: 400px;
+  }
+  .first__img {
+    width: 35px;
+  }
+  .first__link {
+    font-size: 12px;
+  }
+
+  .benefits {
+    padding: 50px 0px 60px 0px;
+  }
+  .benefits__row {
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .benefits__item {
+    margin-top: 25px;
+    width: 250px;
+  }
+  .benefits__item:first-child {
+    margin-top: 0;
+  }
+  .benefits__name {
+    margin-top: 15px;
+  }
+  .benefits__discr {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 568px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .button {
+    width: 120px;
+  }
+  .button_main {
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    font-size: 11px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .header__logo {
+    width: 150px;
+  }
+  .header__official {
+    display: none;
+  }
+  .header__phone {
+    font-size: 14px;
+  }
+
+  .first {
+    min-height: 500px;
+    padding-bottom: 60;
+  }
+  .first__row {
+    margin-top: 40px;
+    align-items: center;
+  }
+  .first__title {
+    font-size: 22px;
+  }
+  .first__subtitle {
+    font-size: 14px;
+    text-align: center;
+  }
+  .first__icons {
+    margin-top: 0px;
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .first__icon {
+    margin: 20px auto 10px auto;
+  }
+  .first__link {
+    font-size: 12px;
+  }
+
+  .benefits {
+    padding: 50px 0px 60px 0px;
+  }
+  .benefits__row {
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .benefits__item {
+    margin-top: 25px;
+    width: 250px;
+  }
+  .benefits__item:first-child {
+    margin-top: 0;
+  }
+  .benefits__name {
+    margin-top: 15px;
+  }
+  .benefits__discr {
+    margin-top: 15px;
+  }
+}
