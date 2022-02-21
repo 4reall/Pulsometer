@@ -158,6 +158,7 @@ a:focus, a:active {
   width: 100%;
   height: 55px;
   border-radius: 5px;
+  font-size: 15px;
 }
 .button_submit:active {
   box-shadow: -2px -2px 1px black;
@@ -262,6 +263,7 @@ a:focus, a:active {
   .button_submit {
     width: 100%;
     height: 55px;
+    font-size: 15px;
   }
 
   .title {
@@ -334,6 +336,7 @@ a:focus, a:active {
   .button_submit {
     width: 100%;
     height: 45px;
+    font-size: 12px;
   }
 
   .title {
@@ -441,6 +444,7 @@ a:focus, a:active {
   .button_submit {
     width: 100%;
     height: 35px;
+    font-size: 10px;
   }
 
   .title_left {
@@ -517,7 +521,7 @@ a:focus, a:active {
   }
 
   .consultation {
-    min-height: 480px;
+    min-height: 380px;
     padding: 50px 0px 60px 0px;
   }
   .consultation__descr {
