@@ -78,7 +78,7 @@ a:focus, a:active {
   width: 42px;
   margin: 0px auto 20px auto;
 }
-.first__discr {
+.first__descr {
   width: 106px;
   text-align: center;
   font-size: 14px;
@@ -154,12 +154,26 @@ a:focus, a:active {
 .button_main:active {
   box-shadow: -2px -2px 1px black;
 }
+.button_submit {
+  width: 100%;
+  height: 55px;
+  border-radius: 5px;
+}
+.button_submit:active {
+  box-shadow: -2px -2px 1px black;
+}
 
 .title {
   text-align: center;
   font-size: 30px;
   font-weight: 700;
   color: #0d0d0d;
+  text-transform: uppercase;
+}
+.title_left {
+  text-align: left;
+  font-size: 36px;
+  color: #ffffff;
 }
 
 .benefits {
@@ -185,15 +199,48 @@ a:focus, a:active {
   font-weight: 700;
   color: #0d0d0d;
 }
-.benefits__discr {
+.benefits__ {
   margin-top: 26px;
   font-size: 14px;
   font-weight: 300;
   color: #0d0d0d;
 }
-.benefits__discr span {
+.benefits__ span {
   text-decoration: underline;
   color: #ff0000;
+}
+
+.consultation {
+  min-height: 680px;
+  padding: 103px 0px 92px 0px;
+  background: url("../img/consultation/bg2.png") center center/cover no-repeat;
+}
+.consultation__descr {
+  margin-top: 80px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.feed-form {
+  margin-top: 36px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.feed-form__input {
+  margin-top: 15px;
+  height: 50px;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  color: #4b4b4b;
+}
+.feed-form__input:nth-child(3) {
+  margin-bottom: 20px;
 }
 
 @media (max-width: 991px) {
@@ -211,6 +258,10 @@ a:focus, a:active {
     width: 250px;
     height: 50px;
     font-size: 14px;
+  }
+  .button_submit {
+    width: 100%;
+    height: 55px;
   }
 
   .title {
@@ -261,7 +312,7 @@ a:focus, a:active {
     margin-top: 25px;
     font-size: 17px;
   }
-  .benefits__discr {
+  .benefits__descr {
     margin-top: 15px;
     font-size: 13px;
   }
@@ -280,8 +331,16 @@ a:focus, a:active {
     height: 40px;
     font-size: 11px;
   }
+  .button_submit {
+    width: 100%;
+    height: 45px;
+  }
 
   .title {
+    font-size: 24px;
+  }
+  .title_left {
+    text-align: center;
     font-size: 24px;
   }
 
@@ -292,6 +351,7 @@ a:focus, a:active {
     font-size: 14px;
   }
   .header__phone {
+    margin-bottom: 5px;
     font-size: 14px;
   }
 
@@ -339,8 +399,29 @@ a:focus, a:active {
   .benefits__name {
     margin-top: 15px;
   }
-  .benefits__discr {
+  .benefits__descr {
     margin-top: 15px;
+  }
+
+  .consultation {
+    min-height: 480px;
+    padding: 60px 0px 70px 0px;
+  }
+  .consultation__descr {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .feed-form {
+    margin: 20px auto 0px auto;
+    width: 250px;
+  }
+  .feed-form__input {
+    margin-top: 15px;
+    height: 40px;
+    padding: 0 15px;
+    font-size: 12px;
   }
 }
 @media (max-width: 568px) {
@@ -357,9 +438,22 @@ a:focus, a:active {
     height: 40px;
     font-size: 11px;
   }
+  .button_submit {
+    width: 100%;
+    height: 35px;
+  }
 
-  .title {
-    font-size: 24px;
+  .title_left {
+    font-size: 18px;
+  }
+
+  .feed-form {
+    margin: 15px auto 0px auto;
+    width: 200px;
+  }
+  .feed-form__input {
+    height: 30px;
+    padding: 0 15px;
   }
 
   .header__logo {
@@ -418,7 +512,15 @@ a:focus, a:active {
   .benefits__name {
     margin-top: 15px;
   }
-  .benefits__discr {
+  .benefits__descr {
     margin-top: 15px;
+  }
+
+  .consultation {
+    min-height: 480px;
+    padding: 50px 0px 60px 0px;
+  }
+  .consultation__descr {
+    font-size: 14px;
   }
 }

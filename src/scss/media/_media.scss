@@ -12,6 +12,10 @@
 			height: 50px;
 			font-size: 14px;
 		}
+		&_submit {
+			width: 100%;
+			height: 55px;
+		}
 	}
 	.title {
 		font-size: 25px;
@@ -66,7 +70,7 @@
 			font-size: 17px;
 		}
 	
-		&__discr {
+		&__descr {
 			margin-top: 15px;
 			font-size: 13px;
 		}
@@ -85,9 +89,17 @@
 			height: 40px;
 			font-size: 11px;
 		}
+		&_submit {
+			width: 100%;
+			height: 45px;
+		}
 	}
 	.title {
 		font-size: 24px;
+		&_left {
+			text-align: center;
+			font-size: 24px;
+		}
 	}
 	.header {
 		&__logo {
@@ -99,6 +111,7 @@
 			}
 		}
 		&__phone {
+			margin-bottom: 5px;
 			font-size: 14px;
 		}
 
@@ -147,10 +160,30 @@
 			margin-top: 15px;
 		}
 	
-		&__discr {
+		&__descr {
 			margin-top: 15px;
 		}
+	}
+	.consultation {
+		min-height: 480px;
+		padding: 60px 0px 70px 0px;
+	
+		&__descr {
+			margin-top: 20px;
+			font-size: 16px;
+			text-align: center;
+		}
 	}	
+	.feed-form {
+		margin: 20px auto 0px auto;
+		width: 250px;
+		&__input {
+			margin-top: 15px;
+			height: 40px;
+			padding: 0 15px;
+			font-size: 12px;
+		}
+	}
 
 }
 
@@ -166,9 +199,23 @@
 			height: 40px;
 			font-size: 11px;
 		}
+		&_submit {
+			width: 100%;
+			height: 35px;
+		}
 	}
 	.title {
-		font-size: 24px;
+		&_left {
+			font-size: 18px;
+		}
+	}
+	.feed-form {
+		margin: 15px auto 0px auto;
+		width: 200px;
+		&__input {
+			height: 30px;
+			padding: 0 15px;
+		}
 	}
 	.header {
 		&__logo {
@@ -228,9 +275,16 @@
 			margin-top: 15px;
 		}
 	
-		&__discr {
+		&__descr {
 			margin-top: 15px;
 		}
 	}	
-
+	.consultation {
+		min-height: 480px;
+		padding: 50px 0px 60px 0px;
+	
+		&__descr {
+			font-size: 14px;
+		}
+	}	
 }
