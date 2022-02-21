@@ -15,6 +15,7 @@
 		&_submit {
 			width: 100%;
 			height: 55px;
+			font-size: 15px;
 		}
 	}
 	.title {
@@ -92,6 +93,7 @@
 		&_submit {
 			width: 100%;
 			height: 45px;
+			font-size: 12px;
 		}
 	}
 	.title {
@@ -202,6 +204,7 @@
 		&_submit {
 			width: 100%;
 			height: 35px;
+			font-size: 10px;
 		}
 	}
 	.title {
@@ -280,7 +283,7 @@
 		}
 	}	
 	.consultation {
-		min-height: 480px;
+		min-height: 380px;
 		padding: 50px 0px 60px 0px;
 	
 		&__descr {
