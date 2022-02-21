@@ -213,7 +213,7 @@ a:focus, a:active {
 .consultation {
   min-height: 680px;
   padding: 103px 0px 92px 0px;
-  background: url("../../img/consultation/bg2.png") center center/cover no-repeat;
+  background: url("../img/consultation/bg2.png") center center/cover no-repeat;
 }
 .consultation__descr {
   margin-top: 80px;
