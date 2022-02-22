@@ -24,14 +24,18 @@
 		color: #0d0d0d;
 	}
 
-	&__{
+	&__discr {
 		margin-top: 26px;
 		font-size: 14px;
 		font-weight: 300;
 		color: #0d0d0d;
-		span {
+	}
+	&__link {
+		text-decoration: underline;
+		color: $main-color;
+		&:focus {
 			text-decoration: underline;
-			color: #ff0000;
+			color: $main-color;
 		}
 	}
 }
