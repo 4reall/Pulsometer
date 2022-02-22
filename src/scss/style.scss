@@ -12,6 +12,7 @@ a:focus,a:active{outline: none;}
 }
 
 .container {
+	position: relative;
 	max-width: 950px;
 	margin: 0 auto;
 }
@@ -23,6 +24,7 @@ a:focus,a:active{outline: none;}
 @import "blocks/_benefits.scss";
 @import "blocks/_consultation";
 @import "blocks/_forms.scss";
+@import "blocks/_slider.scss";
 
 @import "media/_media";
 

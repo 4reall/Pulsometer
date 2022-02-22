@@ -75,7 +75,12 @@
 			margin-top: 15px;
 			font-size: 13px;
 		}
-	}	
+	}
+	.slider {
+		.prev, .next {
+			display: none;
+		}
+	}
 }
 
 @media (max-width: 768px) {
@@ -103,6 +108,7 @@
 			font-size: 24px;
 		}
 	}
+	
 	.header {
 		&__logo {
 			width: 150px;
@@ -167,7 +173,7 @@
 		}
 	}
 	.consultation {
-		min-height: 480px;
+		min-height: 600px;
 		padding: 60px 0px 70px 0px;
 	
 		&__descr {
@@ -283,11 +289,18 @@
 		}
 	}	
 	.consultation {
-		min-height: 380px;
+		min-height: 500px;
 		padding: 50px 0px 60px 0px;
 	
 		&__descr {
 			font-size: 14px;
 		}
-	}	
+	}
+	.slider {
+		.tns-item {
+			img{
+				width: 100%;
+			}
+		}
+	}
 }
