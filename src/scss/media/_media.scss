@@ -17,6 +17,11 @@
 			height: 55px;
 			font-size: 15px;
 		}
+		&_card {
+			width: 131px;
+			height: 40px;
+		}
+		
 	}
 	.title {
 		font-size: 25px;
@@ -192,7 +197,37 @@
 			font-size: 12px;
 		}
 	}
-
+	.catalogue {
+		&__content {
+			justify-content: center;
+		}
+		&__tab {
+			font-size: 15px;
+		}
+	}
+	.reviews {
+		&__row {
+			flex-direction: column;
+			
+		}
+		&__img {
+			display: block;
+			margin: 0 auto;
+		}
+		&__text {
+			margin: 20px 0px 0px 0px;
+			text-align: center;
+		}
+		// &__name {
+		// 	text-align: center;
+		// }
+		// &__count {
+		// 	text-align: start;
+		// }
+		&__descr {
+			text-align: start;
+		}
+	}
 }
 
 @media (max-width: 568px) {
@@ -303,4 +338,17 @@
 			}
 		}
 	}
+	.catalogue {
+		&__tabs {
+			flex-direction: column;
+			align-items: center;
+		}
+		&__tab {
+			margin: 10px 0px 0px 0px;
+		}
+		&__content {
+			margin-top: 40px;
+		}
+	}
+
 }
