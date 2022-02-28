@@ -1,53 +1,28 @@
 @font-face {
-	font-family: Museo Sans Cyrl;
-	font-display: swap;
-	src: url("../fonts/MuseoSansCyrl-500.woff2") format("woff2"), url("../fonts/MuseoSansCyrl-500/.woff") format("woff");
-	font-weight:500;
-\tfont-style: normal;
-}
-@font-face {
-	font-family: Museo Sans Cyrl;
-	font-display: swap;
-	src: url("../fonts/MuseoSansCyrl-700.woff2") format("woff2"), url("../fonts/MuseoSansCyrl-700/.woff") format("woff");
-	font-weight:700;
-\tfont-style: normal;
-}
-@font-face {
-	font-family: Museo Sans Cyrl;
+	font-family: MuseoSansCyrl;
 	font-display: swap;
 	src: url("../fonts/MuseoSansCyrl-300.woff2") format("woff2"), url("../fonts/MuseoSansCyrl-300/.woff") format("woff");
-	font-weight:300;
+	font-weight:400;
 \tfont-style: normal;
 }
 @font-face {
-	font-family: 'icomoon';
-	src:  url('../fonts/icomoon.woff2?c977t5') format('woff2'), url('../fonts/icomoon.woff?c977t5') format('woff');
-	font-weight: normal;
-	font-style: normal;
-	font-display: block;
- }
- 
- [class^="icon-"], [class*=" icon-"] {
-	/* use !important to prevent issues with browser extensions that change fonts */
-	font-family: 'icomoon' !important;
-	speak: never;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
- 
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
- }
- 
- .icon-pinterest-p:before {
-	content: "\e902";
- }
- .icon-facebook-f-brands:before {
-	content: "\e900";
- }
- .icon-instagram:before {
-	content: "\e901";
- }
+	font-family: MuseoSansCyrl;
+	font-display: swap;
+	src: url("../fonts/MuseoSansCyrl-500.woff2") format("woff2"), url("../fonts/MuseoSansCyrl-500/.woff") format("woff");
+	font-weight:400;
+\tfont-style: normal;
+}
+@font-face {
+	font-family: MuseoSansCyrl;
+	font-display: swap;
+	src: url("../fonts/MuseoSansCyrl-700.woff2") format("woff2"), url("../fonts/MuseoSansCyrl-700/.woff") format("woff");
+	font-weight:400;
+\tfont-style: normal;
+}
+@font-face {
+	font-family: icomoon;
+	font-display: swap;
+	src: url("../fonts/icomoon.woff2") format("woff2"), url("../fonts/icomoon/.woff") format("woff");
+	font-weight:400;
+\tfont-style: normal;
+}

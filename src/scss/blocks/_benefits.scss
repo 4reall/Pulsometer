@@ -15,6 +15,11 @@
 	&__img {
 		display: block;
 		margin: 0 auto;
+		&_animated {
+			animation-name: heartbit;
+			animation-duration: 1.5s;
+			animation-iteration-count: infinite;
+		}
 	}
 
 	&__name {

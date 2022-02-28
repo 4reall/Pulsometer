@@ -1,6 +1,8 @@
 @import "base/fonts.scss";
-@import "base/_mixins.scss";
-@import "base/_variables.scss";
+@import "base/mixins.scss";
+@import "base/variables.scss";
+@import "base/animation.scss";
+@import "animate.css";
 
 a, a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
@@ -18,17 +20,20 @@ a:focus,a:active{outline: none;}
 	margin: 0 auto;
 }
 
-@import "blocks/_first.scss";
-@import "blocks/_header.scss";
-@import "blocks/_buttons.scss";
-@import "blocks/_title.scss";
-@import "blocks/_benefits.scss";
-@import "blocks/_consultation";
-@import "blocks/_forms.scss";
-@import "blocks/_slider.scss";
-@import "blocks/_catalogue.scss";
-@import "blocks/_reviews.scss";
-@import "blocks/_footer.scss";
+@import "blocks/first.scss";
+@import "blocks/header.scss";
+@import "blocks/buttons.scss";
+@import "blocks/title.scss";
+@import "blocks/benefits.scss";
+@import "blocks/consultation";
+@import "blocks/forms.scss";
+@import "blocks/slider.scss";
+@import "blocks/catalogue.scss";
+@import "blocks/reviews.scss";
+@import "blocks/footer.scss";
+@import "blocks/modal.scss";
+@import "blocks/page-up.scss";
+
 
 @import "media/_media";
 
