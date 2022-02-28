@@ -7,11 +7,13 @@
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
 	<!-- <link rel="stylesheet" href="https://i.icomoon.io/public/temp/a92ccc0185/UntitledProject/style.css"> -->
 	<link rel="stylesheet" href="css/tiny-slider.css">
+	<link rel="stylesheet" href="css/iconmoon.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<link rel="stylesheet" href="css/style.min.css">
 	<title>Главная</title>
 </head>
 <body>
-	<div class="first">
+	<div class="first" id="main-page">
 		<div class="container">
 			<header class="header">
 				<div class="header__row">
@@ -23,8 +25,8 @@
 						<span>Garmin, Polar, Suunto</span>
 					</div>
 					<div class="header__contacts">
-						<a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
-						<button class="button header__btn">заказать звонок</button>
+						<a  href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
+						<button data-modal="consultation" class="button header__btn">заказать звонок</button>
 					</div>
 				</div>
 			</header>
@@ -34,24 +36,24 @@
 				<div class="first__icons">
 					<div class="first__item">
 						<div class="first__icon">
-							<img src="img/first/Pulse/stopwatch.png" alt="stopwatch" class="first__img">
+							<img src="img/first/Pulse/stopwatch.png" alt="stopwatch" class="first__img animate__animated animate__tada">
 						</div>
 						<div class="first__descr">Время подбора: 10 минут</div>
 					</div>
 					<div class="first__item">
 						<div class="first__icon">
-							<img src="img/first/Pulse/hand-cart.png" alt="hand cart" class="first__img">
+							<img src="img/first/Pulse/hand-cart.png" alt="hand cart" class="first__img animate__animated  animate__lightSpeedInRight">
 						</div>
 						<div class="first__descr">Бесплатная доставка</div>
 					</div>
 					<div class="first__item">
 						<div class="first__icon">
-							<img src="img/first/Pulse/messages.png" alt="messages" class="first__img">
+							<img src="img/first/Pulse/messages.png" alt="messages" class="first__img animate__animated animate__heartBeat">
 						</div>
 						<div class="first__descr">Ответим на все вопросы</div>
 					</div>
 				</div>
-				<button class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
+				<button data-modal="consultation" class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
 				<div class="first__link">
 					или 
 					<a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
@@ -73,7 +75,7 @@
 						</div>
 					</div>
 					<div class="benefits__item">
-						<img src="img/benefits/heart.png" alt="heart" class="benefits__img">
+						<img src="img/benefits/heart.png" alt="heart" class="benefits__img benefits__img_animated">
 						<div class="benefits__name">Заботимся о здоровье</div>
 						<div class="benefits__descr">
 							Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
@@ -93,10 +95,10 @@
 			<div class="container">
 				<h2 class="title title_left">Получите бесплатную консультацию<br>по подбору пульсометра</h2>
 				<div class="consultation__descr">Просто заполните форму заявки <br> и мы перезвоним вам в течении 10 минут</div>
-				<form action="#" class="feed-form">
+				<form action="#" id="consultation-form" class="feed-form">
 					<input name="name" required type="text" placeholder="Ваше имя" class="feed-form__input">
 					<input name="phone" required type="tel" placeholder="Ваш телефон" class="feed-form__input">
-					<input name="e-mail" required type="email" placeholder="Ваша E-mail" class="feed-form__input">
+					<input name="email" required type="email" placeholder="Ваша E-mail" class="feed-form__input">
 					<!-- <input type="submit" value="заказать кОНСУЛЬТАЦИЮ" class="button button_consul"> -->
 					<button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
 				</form>
@@ -156,7 +158,36 @@
 							<div class="catalogue-item__content">
 								<img src="img/catalogue/photo.png" alt="pulsometer" class="catalogue-item__img">
 								<div class="catalogue-item__subtitle">
-									Пульсометр Polar FT1
+									Пульсометр Suunto M2
+								</div>
+								<div class="catalogue-item__descr">
+									Для первых шагов в тренировках, основанных на сердечном ритме
+								</div>
+								<a href="" class="catalogue-item__more">ПОДРОБНЕЕ</a>
+							</div>
+							<ul class="catalogue-item__list ">
+								<li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+								<li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+								<li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+								<li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+								<a href="#" class="catalogue-item__back">назад</a>
+							</ul>
+						</div>
+						<hr>
+						<div class="catalogue-item__footer">
+							<div class="catalogue-item__prices">
+								<div class="catalogue-item__old-price">4 750 руб.</div>
+								<div class="catalogue-item__current-price">4 500 руб.</div>
+							</div>
+							<button class="button button_card">КУПИТЬ</button>
+						</div>
+					</div>	
+					<div class="catalogue-item">
+						<div class="catalogue-item__wrapper">
+							<div class="catalogue-item__content">
+								<img src="img/catalogue/photo.png" alt="pulsometer" class="catalogue-item__img">
+								<div class="catalogue-item__subtitle">
+									Пульсометр Polar FT4
 								</div>
 								<div class="catalogue-item__descr">
 									Для первых шагов в тренировках, основанных на сердечном ритме
@@ -214,7 +245,7 @@
 							<div class="catalogue-item__content">
 								<img src="img/catalogue/photo.png" alt="pulsometer" class="catalogue-item__img">
 								<div class="catalogue-item__subtitle">
-									Пульсометр Polar FT1
+									Пульсометр Suunto M2
 								</div>
 								<div class="catalogue-item__descr">
 									Для первых шагов в тренировках, основанных на сердечном ритме
@@ -243,36 +274,7 @@
 							<div class="catalogue-item__content">
 								<img src="img/catalogue/photo.png" alt="pulsometer" class="catalogue-item__img">
 								<div class="catalogue-item__subtitle">
-									Пульсометр Polar FT1
-								</div>
-								<div class="catalogue-item__descr">
-									Для первых шагов в тренировках, основанных на сердечном ритме
-								</div>
-								<a href="" class="catalogue-item__more">ПОДРОБНЕЕ</a>
-							</div>
-							<ul class="catalogue-item__list ">
-								<li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-								<li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-								<li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-								<li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-								<a href="#" class="catalogue-item__back">назад</a>
-							</ul>
-						</div>
-						<hr>
-						<div class="catalogue-item__footer">
-							<div class="catalogue-item__prices">
-								<div class="catalogue-item__old-price">4 750 руб.</div>
-								<div class="catalogue-item__current-price">4 500 руб.</div>
-							</div>
-							<button class="button button_card">КУПИТЬ</button>
-						</div>
-					</div>	
-					<div class="catalogue-item">
-						<div class="catalogue-item__wrapper">
-							<div class="catalogue-item__content">
-								<img src="img/catalogue/photo.png" alt="pulsometer" class="catalogue-item__img">
-								<div class="catalogue-item__subtitle">
-									Пульсометр Polar FT1
+									Пульсометр Polar FT4
 								</div>
 								<div class="catalogue-item__descr">
 									Для первых шагов в тренировках, основанных на сердечном ритме
@@ -498,7 +500,7 @@
 	</div> -->
 	<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.430481195992!2d37.644807315931104!3d55.76839498055754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCAxMDcwNzg!5e0!3m2!1sru!2sru!4v1645883838785!5m2!1sru!2sru" width="100%" height="630px" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
 	<!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0b50005102c0e14dbc35885dbed7bfb0250cd3bffda414512991c0aa2bce466f&amp;source=constructor" width="100%" height="630px" frameborder="0"></iframe> -->
-	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0b50005102c0e14dbc35885dbed7bfb0250cd3bffda414512991c0aa2bce466f&amp;width=100%&amp;height=630px&amp;lang=ru_RU&amp;scroll=true"></script>
+	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0b50005102c0e14dbc35885dbed7bfb0250cd3bffda414512991c0aa2bce466f&amp;width=100%&amp;height=630px&amp;lang=ru_RU&amp;scroll=false"></script>
 	<div class="footer__info">
 		<address class="footer__adress">Москва, Мясницкий проезд, д.3с1</address>
 		<a class="footer__phone" href="tel:84999228974">8 (499) 922-89-74</a>
@@ -509,8 +511,45 @@
 		</div>
 	</div>
 </footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<div class="overlay">
+		<div class="modal" id="consultation">
+			<div class="modal__close">&times;</div>
+			<div class="modal__subtitle">Просто заполните форму заявки</div>
+			<div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
+			<form action="#" class="feed-form feed-form_mt25">
+				<input name="name" type="text" placeholder="Ваше имя" class="feed-form__input">
+				<input name="phone" type="tel" placeholder="Ваш телефон" class="feed-form__input">
+				<input name="email" type="email" placeholder="Ваша E-mail" class="feed-form__input">
+				<!-- <input type="submit" value="заказать кОНСУЛЬТАЦИЮ" class="button button_consul"> -->
+				<button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
+			</form>
+		</div>
+		<div class="modal" id="order">
+			<div class="modal__close">&times;</div>
+			<div class="modal__subtitle">Ваш заказ:</div>
+			<div class="modal__descr">Пульсометр Polar FT1</div>
+			<form action="#" class="feed-form feed-form_mt25">
+				<input name="name" required type="text" placeholder="Ваше имя" class="feed-form__input">
+				<input name="phone" required type="tel" placeholder="Ваш телефон" class="feed-form__input">
+				<input name="email" required type="email" placeholder="Ваша E-mail" class="feed-form__input">
+				<!-- <input type="submit" value="заказать кОНСУЛЬТАЦИЮ" class="button button_consul"> -->
+				<button class="button button_submit">Купить</button>
+			</form>
+		</div>
+		<div class="modal modal_small" id="thanks">
+			<div class="modal__close">&times;</div>
+			<div class="modal__subtitle">Спасибо за вашу заявку!</div>
+			<div class="modal__descr">
+				Наш менеджер свяжется с вами в ближайшее время!
+			</div>
+		</div>
+	</div>
+	<a href="#main-page" class="page-up"><img src="img/circle-up.svg" alt="up" ></a>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>
